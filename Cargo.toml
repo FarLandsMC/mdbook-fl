@@ -1,0 +1,11 @@
+[package]
+name = "mdbook-fl"
+version = "0.1.0"
+edition = "2021"
+description = "mdbook preprocessor for FarLandsMC Wiki"
+
+[dependencies]
+mdbook = { version = "0.4.31", default-features = false, features = ["search"] }
+regex = "1.9.1"
+semver = "1.0.17"
+serde_json = "1.0.100"
